@@ -1,0 +1,9 @@
+---
+applications:
+  - name: freightVendorInfo
+    random-route: true
+    path: freightVendorApp
+    memory: 128M
+    buildpack: nodejs_buildpack
+    services:
+      - cap_db
